@@ -37,7 +37,9 @@ a method is a function in an object
 4. Describe the four rules of the 'this' keyword.
 global, implicit, explicit and new 
 global finds whats on the window 
-implicit 
+implicit is when a funcion is called to the left of the dot
+new is creating a constructor function then adding the object afterwards. 
+explicit uses call,apply and bind 
 5. Why do we need super() in an extended class?
 its what makes the constructor function work to gather info from the parent.
 ## Project Set up
