@@ -51,3 +51,5 @@ function myFunction() {
   nestedFunction();
 }
 myFunction();
+
+// the reason that 'nestedfuction()' can be accessed is because that is the child of the variable "external". In that, you can access the variable 'internal'.
