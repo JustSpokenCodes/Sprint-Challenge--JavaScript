@@ -15,14 +15,14 @@ function compute (param1, param2, cd){
   * Create a function named multiply that returns the product of two numbers 
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
-function add(num1, num2){
-  return num1 + num2;
+function add(num1, num2,add){
+  return add(num1 + num2);
 }
-function multiply(numb1,numb2){
-  return numb1 * numb2;
+function multiply(numb1,numb2, multiply){
+  return multiply(numb1 * numb2);
 }
-function greet(first_name, last_name){
-  return `Hello ${first_name} ${last_name}, nice to meet you!`
+function greet(first_name, last_name, greeting){
+  return greeting (`Hello ${first_name} ${last_name}, nice to meet you!`)
 }
 
 
