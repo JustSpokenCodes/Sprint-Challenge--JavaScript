@@ -14,6 +14,21 @@ class Dino {
     this.period= big.period;
   }
 }
+class Tyrannosaurus extends Dino{
+  constructor(big){
+    super(big);
+  }
+}
+class Stegosaurus extends Dino{
+  constructor(big){
+    super(big);
+  }
+}
+class Velociraptor extends Dino{
+  constructor(big){
+    super(big);
+  }
+}
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceious
 const tyrannosaurus= new Tyrannosaurus ({
   objectName: 'tyrannosaurus',
@@ -22,6 +37,7 @@ const tyrannosaurus= new Tyrannosaurus ({
   length:'12m',
   period:'Late Cretaceious'
 });
+
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
 const stegosaurus= new Stegosaurus ({
   objectName: "stegosaurus",
