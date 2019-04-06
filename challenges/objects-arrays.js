@@ -94,6 +94,14 @@ const graduates = [{"id":1,"first_name":"Cynde","university":"Missouri Southern 
 /* Request 1: Create a new array called universities that contains all the univeristies in the graduates array.  
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
+class graduate{
+  constructor(howard){
+    this.id = howard.id;
+    this.first_name = howard.first_name;
+    this.university = howard.university;
+    this.email = howard.email;
+  }
+}
 const universities = [universities.sort];
 console.log(universities)
 
